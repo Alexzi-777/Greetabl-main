@@ -17,7 +17,8 @@ main.py is the script that acts as a hub where you can access all the functions 
 
 1. This is what the code is primarily used for. It gathers data from greetabl.com and outputs a PDF and CSV for order fulfillment.
 2. This was originally a debugging tool, albeit not quiet polished. It's primary goal was to reset dates in order to get them back into the fulfillment process.
-3+4. These allowed modifications to the shipment status of orders and builds, pushing them back into the fulfillment process.
+3. These allowed modifications to the shipment status of orders and builds, pushing them back into the fulfillment process.
+4. ^^^
 5. For PDFs with more customized approaches, this would output a PDF with registration marks for fulfillment. 
 6. Terminates process
 
