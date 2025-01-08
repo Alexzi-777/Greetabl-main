@@ -4,25 +4,18 @@
 
 I've redacted any sensitive data in order to use this code as a platform to showcase my skill as a novice programmer. At Greetabl, our factory in Memphis, TN shut down with less than 3 months notice. We were already in panic as our dev team was unavailable to renew their contract and our employees had all transitioned to new jobs in response to a recent aquisition. I started desparatly writing this code sometime in June, only being comfortable of touching GitHub with my first commit on July 17, 2023.
 
-# What this code does:
+## What this code does:
 
 main.py is the script that acts as a hub where you can access all the functions written for this code.
 
-1.) Run daily query
-2.) Update statuses before a given date
-3.) Process individual orders
-4.) Process individual builds
-5.) Group PDFs and overlay regmarks
-6.) Exit
+1. Run daily query - This is what the code is primarily used for. It gathers data from greetabl.com and outputs a PDF and CSV for order fulfillment.
+2. Update statuses before a given date - This was originally a debugging tool, albeit not quiet polished. It's primary goal was to reset dates in order to get them back into the fulfillment process.
+3. Process individual orders - These allowed modifications to the shipment status of orders and builds, pushing them back into the fulfillment process.
+4. Process individual builds - same as 3 except instead for individual builds
+5. Group PDFs and overlay regmarks - For PDFs with more customized approaches, this would output a PDF with registration marks for fulfillment. 
+6. Exit
 
-1. This is what the code is primarily used for. It gathers data from greetabl.com and outputs a PDF and CSV for order fulfillment.
-2. This was originally a debugging tool, albeit not quiet polished. It's primary goal was to reset dates in order to get them back into the fulfillment process.
-3. These allowed modifications to the shipment status of orders and builds, pushing them back into the fulfillment process.
-4. ^^^
-5. For PDFs with more customized approaches, this would output a PDF with registration marks for fulfillment. 
-6. Terminates process
-
-The other scripts are just dependencies for executing these main functions. 
+The other py files are just dependencies for executing these main functions. 
 
 # Credit 
 
