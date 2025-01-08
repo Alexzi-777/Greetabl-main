@@ -17,6 +17,6 @@ main.py is the script that acts as a hub where you can access all the functions 
 
 The other py files are just dependencies for executing these main functions. 
 
-# Credit 
+## Credit 
 
 I worked on this with one other colaborator who joined our team after most of this code's development was complete. They tidied up the code and added QoL modifications. I take credit for most of the functional aspects. I'd also attribute a lot of the coding clean up to ChatGPT 3.5, I specify the version because with more modern versions ChatGPT is much more sophisticated at providing functional and legible code, meaning I had a more involved role in the creation of this code. For example, even modern versions of ChatGPT totally fail any ability to format and adjust elements on a PDF.
