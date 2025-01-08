@@ -1,0 +1,51 @@
+Upload changes to git:
+git add .
+git commit -m "add message"   
+git push origin main 
+
+
+Git commands-
+    Create and switch to a branch: git checkout -b branchName
+    Switch to existing branch: git checkout branchName
+    Merge changes from another branch: git merge otherBranch
+    Push changes to repo: git push origin branchName 
+
+Other useful commands-
+    git status: Shows the status of your working directory, including changes, untracked files, and branch information.
+
+    git add <file>: Adds changes in the specified file to the staging area. Use git add . to add all changes.
+
+    git commit -m "commit message": Commits the changes in the staging area to the local repository with a descriptive commit message.
+
+    git push <remote> <branch>: Pushes your local commits to the specified remote repository and branch.
+
+    git pull <remote> <branch>: Fetches changes from the remote repository and merges them into your current branch.
+
+    git fetch <remote>: Fetches changes from the remote repository without automatically merging them.
+
+    git clone <repository_url>: Clones a remote repository and creates a local copy on your machine.
+
+    git branch: Lists all branches in the repository, highlighting the current branch.
+
+    git checkout <branch>: Switches to the specified branch.
+
+    git merge <branch>: Merges the changes from the specified branch into the current branch.
+
+    git log: Shows the commit history of the current branch.
+
+    git reset <file>: Removes a file from the staging area, preserving its changes in the working directory.
+
+    git stash: Temporarily stores changes in a "stash," allowing you to switch branches without committing them.
+
+    git remote -v: Lists all configured remotes and their URLs.
+
+    git diff: Shows the differences between the working directory and the last commit.
+
+    git cherry-pick <commit>: Applies the changes of a specific commit to the current branch.
+
+    git rebase <branch>: Moves your current branch ahead to the tip of the specified branch, incorporating changes from both branches.
+
+    git tag <tag_name>: Creates a lightweight tag at the current commit.
+
+    git help <command>: To get details about a specific command.
+

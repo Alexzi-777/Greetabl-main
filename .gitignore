@@ -1,0 +1,9 @@
+# Ignore specific files and directories
+
+/Archives/
+/CSVs/
+/PDFs/
+/SQLs/
+Scripts/__pycache__/
+
+
